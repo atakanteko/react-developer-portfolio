@@ -1,10 +1,12 @@
 import React from 'react';
+import Navbar from '../partials/Navbar';
 
 const Layout = ({children}) => {
     return (
-        <div>
+        <main className="py-10 px-10">
+            <Navbar />
             {children}
-        </div>
+        </main>
     );
 };
 
