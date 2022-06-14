@@ -1,9 +1,12 @@
 import React from 'react';
+import Navbar from "../components/partials/Navbar";
+import Profile from "../components/Profile";
 
 const Home = () => {
     return (
-        <div>
-
+        <div className="h-screen py-10">
+            <Navbar />
+            <Profile />
         </div>
     );
 };
