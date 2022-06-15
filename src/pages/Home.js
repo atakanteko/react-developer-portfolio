@@ -1,12 +1,24 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import ReactPageScroller from "react-page-scroller";
 
 
 import HomeContainer from "../components/homeScreen/HomeContainer";
 import TechStack from "../components/stack/TechStack";
+import Projects from "../components/projects/Projects";
+
+import {apiOptions, fetchData} from '../utils/http/fetchData'
 
 const Home = () => {
     const [currentPage, setCurrentPage] = useState(null);
+    const [portfolio, setPortfolio] = useState([]);
+
+    useEffect(() => {
+        const fetchPortfolio = async () => {
+            const response = await fetchData('https://portfolio5.p.rapidapi.com/api/work', apiOptions);
+            setPortfolio(response);
+        }
+        fetchPortfolio();
+    },[]);
 
     const handlePageChange = number => {
         setCurrentPage(number);
@@ -15,7 +27,8 @@ const Home = () => {
         <React.Fragment>
             <ReactPageScroller pageOnChange={handlePageChange} customPageNumber={currentPage}>
                 <HomeContainer />
-                <TechStack />
+                <TechStack/>
+                <Projects portfolio={portfolio}/>
             </ReactPageScroller>
         </React.Fragment>
     );

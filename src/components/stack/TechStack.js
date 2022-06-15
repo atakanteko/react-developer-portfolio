@@ -15,7 +15,7 @@ const TechStack = () => {
                 {
                     stack.map((item, index) => {
                         return (
-                            <div key={index} className="mb-4 mr-4 xl:mb-8 xl:mr-8">
+                            <div key={index} className="mb-4 mr-4 xl:mb-8 xl:mr-8 transition ease-in-out delay-150 hover:scale-125 hover:text-[#19bcfc] duration-300">
                                 <img src={item.icon} alt={item.name} width={64} height={64} className="xl:w-32 lg:w-32 md:w-32"/>
                             </div>)
                     })
