@@ -6,7 +6,7 @@ import More from "../../assets/icons/more.svg";
 const ProjectCard = ({title, imgUrl,framework, link, drawMore=false}) => {
 
     return (
-        <div className={`overflow-hidden bg-white rounded-t-2xl shadow-md xl:w-[373px] lg:w-[300px] md:w-[250px] mt-2`}>
+        <div className={`overflow-hidden bg-white rounded-t-2xl shadow-md xl:w-[373px] lg:w-[300px] md:w-[250px] mt-4 mr-4`}>
             <div className="flex flex-col justify-center items-center">
                 <div className="overflow-hidden rounded-t-2xl">
                     <img src={imgUrl} alt={title} className="w-max"/>
