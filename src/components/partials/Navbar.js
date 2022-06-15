@@ -24,7 +24,7 @@ const Navbar = () => {
                 {
                     SocialLinks.map(({id,name,icon,url}) => {
                         return (
-                            <li key={id} className="mr-2 last:mr-0">
+                            <li key={id} className="mr-5 last:mr-0">
                                 <a href={url} target="_blank" rel="noopener noreferrer">
                                     <img src={icon} alt={name} width="24px" height="24px" className="xl:w-8"/>
                                 </a>
