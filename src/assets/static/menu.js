@@ -1,15 +1,8 @@
 const menu = [
-    {
-        name: 'Home',
-        url: '/',
-    },
+
     {
         name: 'About',
         url: '/about',
-    },
-    {
-        name: 'Tech Stack',
-        url: '#techStack',
     },
     {
         name: 'Projects',
