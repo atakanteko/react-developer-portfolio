@@ -2,7 +2,7 @@ import React from 'react';
 import ProfilePhoto from '../assets/images/profile-photo.png';
 const Profile = () => {
     return (
-        <div className="flex flex-col items-center justify-center h-full xl:flex-row xl:justify-evenly lg:flex-row lg:justify-evenly">
+        <div className="mt-[100px] h-max flex flex-col items-center justify-center h-full xl:mt-[200px] xl:flex-row xl:justify-evenly lg:flex-row lg:justify-evenly lg:mt-[200px]">
             <div className="text-left leading-8 mb-8 xl:leading-[60px] lg:leading-[50px]">
                 <span className="text-[#41446e] text-[28px] font-extrabold xl:text-[58px] lg:text-[48px]">
                     Hi <div className="inline-flex"><span className="animate-waving-hand">👋</span></div>, <br/>
