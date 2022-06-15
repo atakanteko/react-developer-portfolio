@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfilePhoto from '../assets/images/profile-photo.png';
+import ProfilePhoto from '../../assets/images/profile-photo.png';
 const Profile = () => {
     return (
         <div className="h-max flex flex-col items-center justify-center h-full xl:flex-row xl:justify-evenly lg:flex-row lg:justify-evenly">

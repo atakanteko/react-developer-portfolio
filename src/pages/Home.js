@@ -1,14 +1,23 @@
-import React from 'react';
-import Navbar from "../components/partials/Navbar";
-import Profile from "../components/Profile";
+import React, {useState} from 'react';
+import ReactPageScroller from "react-page-scroller";
+
+
+import HomeContainer from "../components/homeScreen/HomeContainer";
+import Second from "../components/Second";
 
 const Home = () => {
+    const [currentPage, setCurrentPage] = useState(null);
+
+    const handlePageChange = number => {
+        setCurrentPage(number);
+    };
     return (
-        <div className="h-screen py-10 flex flex-col justify-between">
-                <Navbar />
-                <Profile />
-                <div></div>
-        </div>
+        <React.Fragment>
+            <ReactPageScroller pageOnChange={handlePageChange} customPageNumber={currentPage}>
+                <HomeContainer />
+                <Second />
+            </ReactPageScroller>
+        </React.Fragment>
     );
 };
 
