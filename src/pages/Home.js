@@ -3,7 +3,7 @@ import ReactPageScroller from "react-page-scroller";
 
 
 import HomeContainer from "../components/homeScreen/HomeContainer";
-import Second from "../components/Second";
+import TechStack from "../components/stack/TechStack";
 
 const Home = () => {
     const [currentPage, setCurrentPage] = useState(null);
@@ -15,7 +15,7 @@ const Home = () => {
         <React.Fragment>
             <ReactPageScroller pageOnChange={handlePageChange} customPageNumber={currentPage}>
                 <HomeContainer />
-                <Second />
+                <TechStack />
             </ReactPageScroller>
         </React.Fragment>
     );

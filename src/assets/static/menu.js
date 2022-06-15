@@ -9,7 +9,7 @@ const menu = [
     },
     {
         name: 'Tech Stack',
-        url: '/tech-stack',
+        url: '#techStack',
     },
     {
         name: 'Projects',

@@ -16,7 +16,7 @@ const Navbar = () => {
                     Menu.map((item, index) => {
                         return (
                             <li key={index} className={`${navigation} hidden xl:block lg:block`}>
-                                <Link to={item.url}>{item.name}</Link>
+                                <a href={item.url}>{item.name}</a>
                             </li>
                         );
                     })
