@@ -65,8 +65,6 @@ O
 package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
 S
 #src/components/projects/Projects.js,3/a/3ae709c9c414021c87e9b379684d4aa9b523ec8e
-A
-src/pages/Home.js,f/8/f88e17193d91c101c7e0bd70b2fc4123066b1147
 N
 src/assets/icons/back-home.svg,d/8/d8d750defee0a62088a4f3d3d50e9c751ae50bbe
 :
