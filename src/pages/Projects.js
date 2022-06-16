@@ -27,15 +27,15 @@ const Projects = () => {
                     <span className="ml-2 text-[#313840] font-bold text-[24px]">Back Home</span>
                 </Link>
             </div>
-            <div className="mt-2 xl:flex xl:flex-row xl:flex-wrap">
-                {
-                    portfolio.map((item, index) => {
-                        return (
-                            <ProjectCard key={index} {...item}/>
-                        )
-                    })
-                }
-            </div>
+               <div className="mt-2 xl:flex xl:flex-row xl:flex-wrap ml-12">
+                   {
+                       portfolio.map((item, index) => {
+                           return (
+                               <ProjectCard key={index} {...item}/>
+                           )
+                       })
+                   }
+               </div>
         </div>
     );
 };
