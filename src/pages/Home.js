@@ -6,7 +6,7 @@ import HomeContainer from "../components/homeScreen/HomeContainer";
 import TechStack from "../components/stack/TechStack";
 import Projects from "../components/projects/Projects";
 import About from "../components/about/About";
-
+import Contact from "../components/contact/Contact";
 import {apiOptions, fetchData} from '../utils/http/fetchData'
 
 const Home = () => {
@@ -31,6 +31,7 @@ const Home = () => {
                 <TechStack/>
                 <Projects portfolio={portfolio}/>
                 <About/>
+                <Contact/>
             </ReactPageScroller>
         </React.Fragment>
     );
