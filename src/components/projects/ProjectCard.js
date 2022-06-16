@@ -16,7 +16,7 @@ const ProjectCard = ({title, imgUrl,framework, link, drawMore=false}) => {
                     <span className="mb-2 text-[#666666] font-extralight h-[120px]">
                             This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content
                         </span>
-                    <span className="text-[#42446E] font-extralight">
+                    <span className="text-[#42446E] font-extralight mt-5">
                             <b>Tech Stack:</b> {framework}
                         </span>
                 </div>
