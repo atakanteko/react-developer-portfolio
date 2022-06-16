@@ -13,8 +13,6 @@ Q
 !src/assets/icons/twitter-icon.svg,1/4/140d7dfec8ad2884334e52b42a139d2ed563dac8
 P
  src/assets/static/socialLinks.js,7/5/756393d8161241cec9c0cba8e8bbc11e855e5cc9
-A
-public/index.html,f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b
 ;
 src/App.css,a/a/aa7165aefcf8ee3d73539e99ab007daf1aa18d8d
 A
