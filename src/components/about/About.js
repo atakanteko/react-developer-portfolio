@@ -5,7 +5,7 @@ import experience from "../../assets/static/experience";
 
 const About = () => {
     return (
-        <div className="px-small-l xl:px-wide-l pt-10">
+        <div className="px-small-l xl:px-wide-l h-screen flex items-center">
             <div className="flex flex-col">
                 <div>
                     <h2 className="text-[#42446E] font-bold text-3xl">About Me</h2>
@@ -26,7 +26,6 @@ const About = () => {
                     }
                 </div>
             </div>
-
         </div>
     );
 };
